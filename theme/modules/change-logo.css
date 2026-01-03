@@ -5,7 +5,7 @@
 */
 
 :root {
-    --logo-url: url('https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/assets/banner.png');
+    --logo-url: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ctitle%3ENetflix icon%3C/title%3E%3Cpath d='M5.39.004l4.75 13.46v-.007l.376 1.06c2.088 5.908 3.21 9.075 3.216 9.082.004 0 .32.02.702.04 1.156.05 2.59.18 3.676.31.25.03.466.04.48.03l-4.71-13.36-.436-1.23-2.423-6.85c-' fill='%23E50914'/%3E%3C/svg%3E");
 }
 
 .pageTitleWithDefaultLogo,

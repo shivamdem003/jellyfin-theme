@@ -1,28 +1,11 @@
-/*
-    The complete pack of the Jamfin theme. This file includes all the modules and the main theme.
-    If you wish to use only some of the modules, you can import them individually.
-    You can grab the base theme by changing jamfin.css to base.css in the first line.
-*/
-
-/* @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/static-sidebar.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/central-libraries-small.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/change-logo.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/count-indicators.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/forgot-password.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/hide-my-media.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/moving-cards.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/smaller-cast.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/floating-progress.css"); */
-
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/base.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/static-sidebar.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/central-libraries-small.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/change-logo.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/count-indicators.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/forgot-password.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/hide-my-media.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/moving-cards.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/smaller-cast.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/floating-progress.css");
-
+@import url("./base.css");
+/* @import url("./modules/static-sidebar.css"); */
+@import url("./modules/central-libraries-small.css");
+@import url("./modules/change-logo.css");
+@import url("./modules/count-indicators.css");
+@import url("./modules/forgot-password.css");
+@import url("./modules/hide-my-media.css");
+@import url("./modules/moving-cards.css");
+@import url("./modules/smaller-cast.css");
+@import url("./modules/floating-progress.css");
+@import url("./modules/netflix-look.css");

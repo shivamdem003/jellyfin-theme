@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 /*
     Jamfin - Another Jellyfin Theme aimed to please the masses.
     Please note that this theme is still in development and may not be fully functional.
@@ -7,23 +9,23 @@
 
 :root {
     /* Colours */
-    --theme-background-colour: #101010;
-    --theme-sidebar-background-colour: #222222;
-    --theme-menu-background-colour: #3a3a3a80;
-    --theme-menu-shadow-colour: #fff3;
-    --theme-base-colour: #696969;
-    --theme-text-colour: #dbdbdb;
-    --theme-restart-colour: #da87287e;
-    --theme-shutdown-colour: #c21c1c9d;
-    --theme-progress-bar-colour: #cfcfcf;
-    --theme-progress-bar-background-colour: #2c2c2c;
-    --theme-progress-bar-transcoding-colour: #eb7e25;
-    --theme-chapter-marker-colour: #dbdbdb;
-    --theme-chapter-marker-watched-colour: #4a4a4a;
+    --theme-background-colour: #141414;
+    --theme-sidebar-background-colour: #141414;
+    --theme-menu-background-colour: #1a1a1a;
+    --theme-menu-shadow-colour: #333333;
+    --theme-base-colour: #E50914;
+    --theme-text-colour: #ffffff;
+    --theme-restart-colour: #E50914;
+    --theme-shutdown-colour: #E50914;
+    --theme-progress-bar-colour: #E50914;
+    --theme-progress-bar-background-colour: #333333;
+    --theme-progress-bar-transcoding-colour: #E50914;
+    --theme-chapter-marker-colour: #ffffff;
+    --theme-chapter-marker-watched-colour: #666666;
 
     /* General Appearance */
-    --theme-roundness: .75rem;
-    --theme-blur: 16px;
+    --theme-roundness: 0;
+    --theme-blur: 0px;
 }
 
 /* Remove the Default Focus Outline */
@@ -39,6 +41,7 @@
 .nowPlayingContextMenu,
 html {
     background-color: var(--theme-background-colour);
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Re-design the Header */
@@ -261,13 +264,11 @@ html {
 .dialog,
 .itemSelectionPanel {
     border-radius: var(--theme-roundness) !important;
-    box-shadow: inset 0 1px var(--theme-menu-shadow-colour) !important;
     transition: 0.2s;
 }
 
 .cardOverlayContainer {
     border-radius: var(--theme-roundness) !important;
-    box-shadow: inset 0 2px var(--theme-menu-shadow-colour) !important;
     transition: unset;
 }
 

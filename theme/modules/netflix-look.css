@@ -1,0 +1,63 @@
+/*
+    Netflix Look and Feel Module
+    This module contains styles to make the Jellyfin UI look more like Netflix.
+*/
+
+/* Hero Banner on Home Page */
+.section0 .card {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section0 .cardImage {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.section0 .cardContent {
+    display: none;
+}
+
+.section0 .cardOverlayContainer {
+    background: linear-gradient(to top, rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 0) 20%);
+}
+
+.section0 .cardOverlayButton-br {
+    display: none;
+}
+
+.section0 .cardOverlayText {
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+    right: 4%;
+    text-align: left;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Horizontal Scrolling for Carousels */
+.itemsContainer {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
+}
+
+.itemsContainer .card {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+    margin-right: 10px;
+}
+
+/* Hide scrollbar */
+.itemsContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.itemsContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

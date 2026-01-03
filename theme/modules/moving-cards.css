@@ -4,6 +4,10 @@
     This can be used as a standalone module.
 */
 
+.cardBox {
+    transition: transform 0.1s ease-in-out;
+}
+
 .cardBox:hover {
     transform: translateY(-2.5px);
     -webkit-transform: translateY(-2.5px);
