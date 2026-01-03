@@ -4,19 +4,13 @@
 */
 
 /* Hero Banner on Home Page */
-.section0 .card {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.section0 .card .cardText {
+    display: none;
 }
 
 .section0 .cardImage {
     height: 70vh;
     object-fit: cover;
-}
-
-.section0 .cardContent {
-    display: none;
 }
 
 .section0 .cardOverlayContainer {
@@ -38,14 +32,14 @@
 }
 
 /* Horizontal Scrolling for Carousels */
-.itemsContainer {
+.itemsContainer.padded-left.padded-right.overflow-x-hidden.scroll-snap-x-mandatory.scroll-snap-type-x-mandatory {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
 }
 
-.itemsContainer .card {
+.itemsContainer.padded-left.padded-right.overflow-x-hidden.scroll-snap-x-mandatory.scroll-snap-type-x-mandatory .card {
     display: inline-block;
     vertical-align: top;
     white-space: normal;
