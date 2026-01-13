@@ -5,13 +5,14 @@
 */
 
 .cardBox {
-    transition: transform 0.1s ease-in-out;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .cardBox:hover {
-    transform: translateY(-2.5px);
-    -webkit-transform: translateY(-2.5px);
-    -moz-transform: translateY(-2.5px);
-    -ms-transform: translateY(-2.5px);
-    -o-transform: translateY(-2.5px);
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
