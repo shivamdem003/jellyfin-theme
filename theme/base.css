@@ -24,7 +24,7 @@
     --theme-chapter-marker-watched-colour: #666666;
 
     /* General Appearance */
-    --theme-roundness: 0;
+    --theme-roundness: .75rem;
     --theme-blur: 0px;
 }
 
@@ -56,7 +56,7 @@ html {
 }
 
 [dir="ltr"] .navMenuOption {
-    padding: .9em 1.2em !important;
+    padding: 1em 1.5em !important;
 }
 
 .pageTitleWithLogo {
@@ -138,8 +138,8 @@ html {
 .sessionCardButton,
 .guideOptions,
 .MuiTabs-centered .MuiTab-root {
-    padding: .556em !important;
-    margin: 0 .29em !important;
+    padding: .8em !important;
+    margin: 0 .4em !important;
     border-radius: var(--theme-roundness);
 }
 
