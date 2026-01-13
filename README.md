@@ -20,7 +20,7 @@ The following line includes the base theme as well as all our optional modules. 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/complete.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/complete.css");
 ```
 
 </div>
@@ -30,7 +30,7 @@ If you just want the theme without all our modules integrated, simply copy this 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/base.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/base.css");
 ```
 
 </div>
