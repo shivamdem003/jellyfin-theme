@@ -11,4 +11,10 @@
 .pageTitleWithDefaultLogo,
 .spashLogo {
     background-image: var(--logo-url) !important;
+    background-size: contain;
+}
+
+.pageTitleWithDefaultLogo {
+    height: 104px;
+    width: 325px;
 }
