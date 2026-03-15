@@ -4,14 +4,15 @@
     You can grab the base theme by changing demfin.css to base.css in the first line.
 */
 
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/base.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/static-sidebar.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/central-libraries-small.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/change-logo.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/count-indicators.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/forgot-password.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/hide-my-media.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/moving-cards.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/smaller-cast.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/floating-progress.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/netflix-look.css");
+@import url("./base.css");
+@import url("./modules/static-sidebar.css");
+@import url("./modules/central-libraries-small.css");
+@import url("./modules/change-logo.css");
+@import url("./modules/count-indicators.css");
+@import url("./modules/forgot-password.css");
+@import url("./modules/hide-my-media.css");
+@import url("./modules/moving-cards.css");
+@import url("./modules/smaller-cast.css");
+@import url("./modules/floating-progress.css");
+@import url("./modules/netflix-look.css");
+@import url("./modules/tv-optimizations.css");

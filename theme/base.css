@@ -806,7 +806,7 @@ progress {
 /* Login Form */
 
 #loginPage {
-    background-image: url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/assets/banner.png");
+    background-image: url("../../assets/banner.png");
     background-size: cover;
     background-position: center;
     background-color: var(--theme-menu-background-colour);

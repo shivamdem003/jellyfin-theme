@@ -1,0 +1,35 @@
+/*
+    TV Optimizations Module
+    This module contains styles to improve the user experience on TV devices.
+*/
+
+.layout-tv {
+    font-size: 1.2rem;
+}
+
+.layout-tv .card {
+    min-width: 280px;
+    min-height: 440px;
+}
+
+.layout-tv .cardContent {
+    font-size: 1.4em;
+}
+
+.layout-tv .itemsContainer .card {
+    margin: 2em;
+}
+
+.layout-tv .emby-button.show-focus:focus,
+.layout-tv .paper-icon-button-light.show-focus:focus,
+.layout-tv .card.show-focus:focus,
+.layout-tv .emby-tab-button.show-focus:focus,
+.layout-tv .alphaPickerButton-tv:focus {
+    outline: 5px solid var(--theme-base-colour) !important;
+    outline-offset: 3px;
+}
+
+.layout-tv .sectionTitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
