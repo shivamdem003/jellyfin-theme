@@ -9,7 +9,7 @@ if (!branch) {
  */
 const config = {
     branches: ["main"],
-    repositoryUrl: "https://github.com/JamsRepos/Jamfin.git",
+    repositoryUrl: "https://github.com/shivamdem003/jellyfin-theme.git",
     plugins: [
         [
             "@semantic-release/commit-analyzer",

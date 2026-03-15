@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /*
-    Jamfin - Another Jellyfin Theme aimed to please the masses.
+    Demfin - A modern purple theme for Jellyfin.
     Please note that this theme is still in development and may not be fully functional.
     This theme is based on the Jellyfin default theme.
     This theme is licensed under the MIT License.
@@ -9,17 +9,17 @@
 
 :root {
     /* Colours */
-    --theme-background-colour: #141414;
-    --theme-sidebar-background-colour: #141414;
-    --theme-menu-background-colour: #1a1a1a;
-    --theme-menu-shadow-colour: #333333;
-    --theme-base-colour: #E50914;
+    --theme-background-colour: #1a102c;
+    --theme-sidebar-background-colour: #1a102c;
+    --theme-menu-background-colour: #2c1a4d;
+    --theme-menu-shadow-colour: #4a2a88;
+    --theme-base-colour: #8A2BE2;
     --theme-text-colour: #ffffff;
-    --theme-restart-colour: #E50914;
-    --theme-shutdown-colour: #E50914;
-    --theme-progress-bar-colour: #E50914;
-    --theme-progress-bar-background-colour: #333333;
-    --theme-progress-bar-transcoding-colour: #E50914;
+    --theme-restart-colour: #8A2BE2;
+    --theme-shutdown-colour: #8A2BE2;
+    --theme-progress-bar-colour: #8A2BE2;
+    --theme-progress-bar-background-colour: #4a2a88;
+    --theme-progress-bar-transcoding-colour: #8A2BE2;
     --theme-chapter-marker-colour: #ffffff;
     --theme-chapter-marker-watched-colour: #666666;
 
@@ -83,7 +83,14 @@ html {
 .paper-icon-button-light > div {
     width: 25px;
     height: 25px;
-    transform: unset;
+}
+
+.paper-icon-button-light {
+    transition: transform 0.3s ease;
+}
+
+.paper-icon-button-light:hover {
+    transform: scale(1.1);
 }
 
 .skinHeader.semiTransparent {
@@ -264,13 +271,17 @@ html {
 .dialog,
 .itemSelectionPanel {
     border-radius: var(--theme-roundness) !important;
-    transition: 0.2s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.cardContent:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .cardOverlayContainer {
     border-radius: var(--theme-roundness) !important;
-    transition: unset;
 }
 
 .layout-mobile .cardOverlayButton {
@@ -309,13 +320,22 @@ html {
 #skipIntro .emby-button:hover,
 .multiSelectCheckboxOutline {
     border-radius: var(--theme-roundness) !important;
-    transform: unset !important;
-    -webkit-transform: unset !important;
-    -moz-transform: unset !important;
-    -o-transform: unset !important;
-    -ms-transform: unset !important;
     color: var(--theme-text-colour);
     background-color: var(--theme-menu-shadow-colour) !important;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-submit:focus,
+.paper-icon-button-light:hover:not(:disabled, .btnDelete),
+.raised:hover,
+.emby-tab-button:hover,
+.detailButton:hover,
+.emby-tab-button.show-focus:focus,
+.paper-icon-button-light.show-focus:focus,
+.emby-button.show-focus:focus,
+.alphaPickerButton-tv:focus,
+#skipIntro .emby-button:hover {
+    transform: scale(1.05);
 }
 
 .layout-tv .itemDetailsGroup .emby-button.show-focus:focus {
@@ -771,7 +791,7 @@ progress {
 /* Login Form */
 
 #loginPage {
-    background-image: url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/assets/banner.png");
+    background-image: url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/assets/banner.png");
     background-size: cover;
     background-position: center;
     background-color: var(--theme-menu-background-colour);

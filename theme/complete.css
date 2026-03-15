@@ -1,28 +1,17 @@
 /*
-    The complete pack of the Jamfin theme. This file includes all the modules and the main theme.
+    The complete pack of the Demfin theme. This file includes all the modules and the main theme.
     If you wish to use only some of the modules, you can import them individually.
-    You can grab the base theme by changing jamfin.css to base.css in the first line.
+    You can grab the base theme by changing demfin.css to base.css in the first line.
 */
 
-/* @import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/base.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/static-sidebar.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/central-libraries-small.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/change-logo.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/count-indicators.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/forgot-password.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/hide-my-media.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/moving-cards.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/smaller-cast.css");
-@import url("https://cdn.jsdelivr.net/gh/JamsRepos/Jamfin@latest/theme/modules/floating-progress.css"); */
-
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/base.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/static-sidebar.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/central-libraries-small.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/change-logo.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/count-indicators.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/forgot-password.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/hide-my-media.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/moving-cards.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/smaller-cast.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/floating-progress.css");
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/modules/netflix-look.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/base.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/static-sidebar.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/central-libraries-small.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/change-logo.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/count-indicators.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/forgot-password.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/hide-my-media.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/moving-cards.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/smaller-cast.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/floating-progress.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/modules/netflix-look.css");

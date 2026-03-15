@@ -1,9 +1,9 @@
 <div align="center">
 <img src="assets/logo.png" alt="Logo" width="125"/>
 
-[![Download Hits](https://data.jsdelivr.com/v1/package/gh/JamsRepos/Jamfin/badge)](https://www.jsdelivr.com/package/gh/JamsRepos/Jamfin)
+[![Download Hits](https://data.jsdelivr.com/v1/package/gh/shivamdem003/jellyfin-theme/badge)](https://www.jsdelivr.com/package/gh/shivamdem003/jellyfin-theme)
 
-( <a href="https://github.com/JamsRepos/Jamfin#ℹ%EF%B8%8F-welcome">About</a> - <a href="https://github.com/JamsRepos/Jamfin#-screenshots">Screenshots</a> )
+( <a href="https://github.com/shivamdem003/jellyfin-theme#ℹ%EF%B8%8F-welcome">About</a> - <a href="https://github.com/shivamdem003/jellyfin-theme#-screenshots">Screenshots</a> )
 
 ## ℹ️ Welcome
 
@@ -20,7 +20,7 @@ The following line includes the base theme as well as all our optional modules. 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/complete.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/complete.css");
 ```
 
 </div>
@@ -30,7 +30,7 @@ If you just want the theme without all our modules integrated, simply copy this 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/netflix/theme/base.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/demfin-theme/theme/base.css");
 ```
 
 </div>
@@ -53,17 +53,17 @@ Not sure if you like our colour scheme? No worries, we allow easy access to our 
 ```css
 :root {
     /* Colours */
-    --theme-background-colour: #101010;
-    --theme-sidebar-background-colour: #222222;
-    --theme-menu-background-colour: #3a3a3a80;
-    --theme-menu-shadow-colour: #fff3;
-    --theme-base-colour: #696969;
-    --theme--hover-colour: #dbdbdb;
-    --theme-restart-colour: #da87287e;
-    --theme-shutdown-colour: #c21c1c9d;
-    --theme-progress-bar-colour: #cfcfcf;
-    --theme-progress-bar-background-colour: #2c2c2c;
-    --theme-progress-bar-transcoding-colour: #eb7e25;
+    --theme-background-colour: #1a102c;
+    --theme-sidebar-background-colour: #1a102c;
+    --theme-menu-background-colour: #2c1a4d;
+    --theme-menu-shadow-colour: #4a2a88;
+    --theme-base-colour: #8A2BE2;
+    --theme-text-colour: #ffffff;
+    --theme-restart-colour: #8A2BE2;
+    --theme-shutdown-colour: #8A2BE2;
+    --theme-progress-bar-colour: #8A2BE2;
+    --theme-progress-bar-background-colour: #4a2a88;
+    --theme-progress-bar-transcoding-colour: #8A2BE2;
 
     /* General Appearance */
     --theme-roundness: .75rem;
