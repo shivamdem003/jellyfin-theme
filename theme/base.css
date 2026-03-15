@@ -8,6 +8,11 @@
 */
 
 :root {
+    /* 
+        Custom properties for the theme.
+        These can be changed to customize the look and feel of the theme.
+    */
+
     /* Colours */
     --theme-background-colour: #0a0c24;
     --theme-sidebar-background-colour: #0a0c24;
@@ -126,8 +131,6 @@ html {
     backdrop-filter: blur(var(--theme-blur)) !important;
     -webkit-backdrop-filter: blur(var(--theme-blur)) !important;
     -moz-backdrop-filter: blur(var(--theme-blur)) !important;
-    -o-backdrop-filter: blur(var(--theme-blur)) !important;
-    -ms-backdrop-filter: blur(var(--theme-blur)) !important;
 }
 
 .dialogBackdrop {
@@ -145,8 +148,8 @@ html {
 .sessionCardButton,
 .guideOptions,
 .MuiTabs-centered .MuiTab-root {
-    padding: .8em !important;
-    margin: 0 .4em !important;
+    padding: .8em;
+    margin: 0 .4em;
     border-radius: var(--theme-roundness);
 }
 
@@ -229,7 +232,7 @@ html {
 
 @media (max-width: 50em) {
     .homeLibraryButton {
-    width: 100% !important;
+        width: 100% !important;
     }
 }
 
@@ -253,9 +256,9 @@ html {
 .navMenuOption:hover,
 .MuiListItem-root,
 .MuiDrawer-paperAnchorLeft .MuiButtonBase-root {
-    border-radius: var(--theme-roundness) !important;
+    border-radius: var(--theme-roundness);
     width: 80%;
-    margin: auto !important;
+    margin: auto;
 }
 
 .navMenuOption:hover,
@@ -285,7 +288,7 @@ html {
 .blurhash-canvas,
 .dialog,
 .itemSelectionPanel {
-    border-radius: var(--theme-roundness) !important;
+    border-radius: var(--theme-roundness);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -296,7 +299,7 @@ html {
 }
 
 .cardOverlayContainer {
-    border-radius: var(--theme-roundness) !important;
+    border-radius: var(--theme-roundness);
 }
 
 .layout-mobile .cardOverlayButton {
@@ -334,9 +337,9 @@ html {
 .alphaPickerButton-tv:focus,
 #skipIntro .emby-button:hover,
 .multiSelectCheckboxOutline {
-    border-radius: var(--theme-roundness) !important;
+    border-radius: var(--theme-roundness);
     color: var(--theme-text-colour);
-    background-color: var(--theme-menu-shadow-colour) !important;
+    background-color: var(--theme-menu-shadow-colour);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -655,7 +658,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 #divRunningTasks span,
 .MuiAlert-icon,
 .listItemBodyText span {
-    color: var(--theme-text-colour) !important;
+    color: var(--theme-text-colour);
 }
 
 .emby-checkbox:checked + span + .checkboxOutline,
@@ -671,7 +674,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 div[data-role="controlgroup"] a.ui-btn-active,
 .MuiAvatar-root,
 .selectionCommandsPanel {
-    background-color: var(--theme-base-colour) !important;
+    background-color: var(--theme-base-colour);
 }
 
 .emby-checkbox + span + .checkboxOutline,
@@ -681,7 +684,7 @@ div[data-role="controlgroup"] a.ui-btn-active,
 .mdl-spinner__layer-2,
 .mdl-spinner__layer-3,
 .mdl-spinner__layer-4 {
-    border-color: var(--theme-base-colour) !important;
+    border-color: var(--theme-base-colour);
 }
 
 .mdl-slider {
@@ -768,7 +771,7 @@ div[data-role="controlgroup"] a.ui-btn-active,
 .iconOsdProgressInner,
 .taskProgressInner,
 progress {
-    background-color: var(--theme-progress-bar-colour) !important;
+    background-color: var(--theme-progress-bar-colour);
 }
 
 /* These need to remain separate for browser compatibility */
@@ -791,7 +794,7 @@ progress::-ms-thumb {
 .mdl-slider-background-flex,
 .taskProgressOuter,
 progress {
-    background-color: var(--theme-progress-bar-background-colour) !important;
+    background-color: var(--theme-progress-bar-background-colour);
 }
 
 .layout-desktop .dashboardDocument .content-primary:not(.layout-desktop #dashboardPage .content-primary) {

@@ -32,14 +32,18 @@
 }
 
 /* Horizontal Scrolling for Carousels */
-.itemsContainer.padded-left.padded-right.overflow-x-hidden.scroll-snap-x-mandatory.scroll-snap-type-x-mandatory {
+/*
+    The original selector was very specific and brittle.
+    This has been simplified to make it more robust to future Jellyfin updates.
+*/
+.itemsContainer.overflow-x-hidden {
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
 }
 
-.itemsContainer.padded-left.padded-right.overflow-x-hidden.scroll-snap-x-mandatory.scroll-snap-type-x-mandatory .card {
+.itemsContainer.overflow-x-hidden .card {
     display: inline-block;
     vertical-align: top;
     white-space: normal;
