@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 /*
-    Demfin - A modern purple theme for Jellyfin.
+    Hotstarfin - A modern theme for Jellyfin inspired by Disney+ Hotstar.
     Please note that this theme is still in development and may not be fully functional.
     This theme is based on the Jellyfin default theme.
     This theme is licensed under the MIT License.
@@ -9,17 +9,17 @@
 
 :root {
     /* Colours */
-    --theme-background-colour: #1a102c;
-    --theme-sidebar-background-colour: #1a102c;
-    --theme-menu-background-colour: #2c1a4d;
-    --theme-menu-shadow-colour: #4a2a88;
-    --theme-base-colour: #8A2BE2;
+    --theme-background-colour: #0a0c24;
+    --theme-sidebar-background-colour: #0a0c24;
+    --theme-menu-background-colour: #1f2249;
+    --theme-menu-shadow-colour: #1f2249;
+    --theme-base-colour: #00a8e1;
     --theme-text-colour: #ffffff;
-    --theme-restart-colour: #8A2BE2;
-    --theme-shutdown-colour: #8A2BE2;
-    --theme-progress-bar-colour: #8A2BE2;
-    --theme-progress-bar-background-colour: #4a2a88;
-    --theme-progress-bar-transcoding-colour: #8A2BE2;
+    --theme-restart-colour: #00a8e1;
+    --theme-shutdown-colour: #00a8e1;
+    --theme-progress-bar-colour: #00a8e1;
+    --theme-progress-bar-background-colour: #1f2249;
+    --theme-progress-bar-transcoding-colour: #00a8e1;
     --theme-chapter-marker-colour: #ffffff;
     --theme-chapter-marker-watched-colour: #666666;
 
@@ -190,8 +190,14 @@ html {
     }
 }
 
+/* TV Layout */
+
 .layout-tv .sectionTabs {
     width: unset;
+}
+
+.layout-tv .itemDetailsGroup .emby-button.show-focus:focus {
+    padding: 5px 10px;
 }
 
 @media (min-width: 100em) {
@@ -199,8 +205,17 @@ html {
         margin-top: unset;
     }
 
-    .layout-mobile .headerTabs {
-        margin-top: -1.3em;
+    .layout-tv .card {
+        min-width: 250px;
+        min-height: 400px;
+    }
+
+    .layout-tv .cardContent {
+        font-size: 1.2em;
+    }
+
+    .layout-tv .itemsContainer .card {
+        margin: 1.5em;
     }
 }
 
