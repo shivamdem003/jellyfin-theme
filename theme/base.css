@@ -794,3 +794,54 @@ progress {
 .chapterThumbText {
     width: fit-content;
 }
+
+/* Scrolling Banner */
+body::before {
+    content: "";
+    display: block;
+    height: 200px;
+    background-image: url('https://picsum.photos/seed/cartoon/1920/1080');
+    background-size: cover;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -2000px 0;
+    }
+}
+
+/* Hotstar-like Card Style */
+.cardContent:not(.dashboardSection .cardContent),
+.cardPadder:not(.dashboardSection .cardPadder),
+.blurhash-canvas,
+.dialog,
+.itemSelectionPanel {
+    background-color: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.cardContent:hover,
+.cardPadder:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.cardOverlayButton {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 50% !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
