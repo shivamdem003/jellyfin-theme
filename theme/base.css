@@ -7,16 +7,16 @@
 
 :root {
     /* Colours */
-    --theme-background-colour: #051828;
-    --theme-sidebar-background-colour: #14143c;
-    --theme-menu-background-colour: #136878;
+    --theme-background-colour: #121212;
+    --theme-sidebar-background-colour: #121212;
+    --theme-menu-background-colour: rgba(51, 51, 51, 0.5);
     --theme-menu-shadow-colour: #fff3;
-    --theme-base-colour: #136878;
-    --theme-text-colour: #FFFFFF;
+    --theme-base-colour: #007BFF;
+    --theme-text-colour: #EAEAEA;
     --theme-restart-colour: #da87287e;
     --theme-shutdown-colour: #c21c1c9d;
-    --theme-progress-bar-colour: #136878;
-    --theme-progress-bar-background-colour: #FFFFFF;
+    --theme-progress-bar-colour: #007BFF;
+    --theme-progress-bar-background-colour: #333333;
     --theme-progress-bar-transcoding-colour: #eb7e25;
     --theme-chapter-marker-colour: #dbdbdb;
     --theme-chapter-marker-watched-colour: #4a4a4a;
@@ -260,8 +260,12 @@ html {
 .blurhash-canvas,
 .dialog,
 .itemSelectionPanel {
+    background-color: rgba(51, 51, 51, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: var(--theme-roundness) !important;
-    box-shadow: inset 0 1px var(--theme-menu-shadow-colour) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     transition: 0.2s;
 }
 
