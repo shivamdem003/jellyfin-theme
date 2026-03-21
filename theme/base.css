@@ -7,15 +7,15 @@
 
 :root {
     /* Colours */
-    --theme-background-colour: #121212;
-    --theme-sidebar-background-colour: #121212;
-    --theme-menu-background-colour: rgba(51, 51, 51, 0.5);
+    --theme-background-colour: #000000;
+    --theme-sidebar-background-colour: #000000;
+    --theme-menu-background-colour: rgba(51, 51, 51, 0.3);
     --theme-menu-shadow-colour: #fff3;
-    --theme-base-colour: #007BFF;
+    --theme-base-colour: #0059b3;
     --theme-text-colour: #EAEAEA;
     --theme-restart-colour: #da87287e;
     --theme-shutdown-colour: #c21c1c9d;
-    --theme-progress-bar-colour: #007BFF;
+    --theme-progress-bar-colour: #0059b3;
     --theme-progress-bar-background-colour: #333333;
     --theme-progress-bar-transcoding-colour: #eb7e25;
     --theme-chapter-marker-colour: #dbdbdb;
