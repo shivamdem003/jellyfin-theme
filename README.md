@@ -30,7 +30,7 @@ If you just want the theme without all our modules integrated, simply copy this 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/base.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/master2/theme/base.css");
 ```
 
 </div>

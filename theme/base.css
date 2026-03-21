@@ -1,5 +1,5 @@
 /*
-    Jamfin - Another Jellyfin Theme aimed to please the masses.
+    dem+ - Another Jellyfin Theme aimed to please the masses.
     Please note that this theme is still in development and may not be fully functional.
     This theme is based on the Jellyfin default theme.
     This theme is licensed under the MIT License.
@@ -7,16 +7,16 @@
 
 :root {
     /* Colours */
-    --theme-background-colour: #101010;
-    --theme-sidebar-background-colour: #222222;
-    --theme-menu-background-colour: #3a3a3a80;
+    --theme-background-colour: #051828;
+    --theme-sidebar-background-colour: #14143c;
+    --theme-menu-background-colour: #136878;
     --theme-menu-shadow-colour: #fff3;
-    --theme-base-colour: #696969;
-    --theme-text-colour: #dbdbdb;
+    --theme-base-colour: #136878;
+    --theme-text-colour: #FFFFFF;
     --theme-restart-colour: #da87287e;
     --theme-shutdown-colour: #c21c1c9d;
-    --theme-progress-bar-colour: #cfcfcf;
-    --theme-progress-bar-background-colour: #2c2c2c;
+    --theme-progress-bar-colour: #136878;
+    --theme-progress-bar-background-colour: #FFFFFF;
     --theme-progress-bar-transcoding-colour: #eb7e25;
     --theme-chapter-marker-colour: #dbdbdb;
     --theme-chapter-marker-watched-colour: #4a4a4a;

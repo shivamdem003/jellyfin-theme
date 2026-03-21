@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/shivamdem003/jellyfin-theme/tree/master/assets/logo.png?raw=true" alt="Logo" width="125"/>
+<img src="https://github.com/shivamdem003/jellyfin-theme/tree/feature/master2/assets/logo.png?raw=true" alt="Logo" width="125"/>
 
 ## 🧩 Modules
 
@@ -12,7 +12,7 @@ The general format to install a module is as followed, you will need to replace 
 <div align="left">
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@master/theme/modules/<name>.css");
+@import url("https://cdn.jsdelivr.net/gh/shivamdem003/jellyfin-theme@feature/master2/theme/modules/<name>.css");
 ```
 
 </div>

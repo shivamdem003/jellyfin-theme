@@ -11,7 +11,7 @@ function getCssFiles(dir, fileList = []) {
             getCssFiles(filePath, fileList);
         } else if (file.endsWith('.css')) {
             const relativePath = path.relative(__dirname, filePath);
-            fileList.push(`/gh/JamsRepos/Jamfin@latest/${relativePath}`);
+            fileList.push(`/gh/shivamdem003/jellyfin-theme@feature/master2/${relativePath}`);
         }
     });
     return fileList;
